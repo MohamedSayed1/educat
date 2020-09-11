@@ -1,0 +1,15 @@
+<?php
+
+
+namespace App\Educat\Model;
+
+
+use Illuminate\Database\Eloquent\Model;
+
+class Lesson extends Model
+{
+    protected $table = "lesson";
+
+    protected $primaryKey ="lesson_id";
+
+}
